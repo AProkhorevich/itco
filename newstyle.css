@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	font-family: 'Open Sans';
+	margin: 0;
+	padding: 0;
+
+}
+.registration{
+	font-size: 20px;
+    margin-top: 175px;
+    position: absolute;
+    margin-left: 90%;
+    text-decoration: none;
+}
+
+#menu{
+	display: none;
+    margin-left: 90%;	
+    text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 120px;
+	margin-top: 4%;
+}
+h2 {
+	text-align: center;
+    font-weight: bolder;
+}
+h3 {
+	text-align: center;
+	font-weight: 100;
+}
+.container {
+	margin: -100px auto;
+	padding-bottom: 8%;
+	background: url(images/photo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome-message{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 85%;
+}
+.welcome{
+	color: blue;
+	display: block;
+}
+
+.logo img{
+	height: 200px;
+	position: absolute;
+	top: 0;
+    margin-top: -0.8%;
+	width: 20%;
+	margin-left: 40%;
+	fill: white;
+}
+a: hover{
+	text-decoration: underline;
+}
+#home-button {
+	margin-left: 20%;
+}
+#about-button{
+	margin-left: 5%;
+}
+#service-button{
+	margin-left: 35%;
+}
+#contact-button{
+	margin-left: 5%;
+}
+.navigation-link {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.navigation-link:hover{
+	text-decoration: underline;
+}
+.nav-block{
+	padding-top: 175px;
+	font-size: 16px;
+	top: 0px; 
+}
+
+.site-body{
+	margin-top: 10%;
+}
+.pictures{
+    margin-top: 1%;
+}
+.photo{
+	width: 30%;
+	padding-top: 5%;
+}
+#photo1{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+#photo2{
+	padding-right: 2%;
+    padding-left: 1%;
+}
+#photo3{
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 1600px){
+	.welcome-message{
+		position: absolute;
+		margin-top: 16%;
+		margin-left: 83%;
+		font-size: 12px;
+	}	
+	}
+	#home-button {
+		margin-left: 20%;
+	}
+	#about-button{
+		margin-left: 5%;
+	}
+	#service-button{
+		margin-left: 35%;
+	}
+	#contact-button{
+		margin-left: 5%;
+	}
+}
+@media screen and (max-width: 1322px){
+	.welcome-message{
+	    position: absolute;
+	    margin-top: 17%;
+	    margin-left: 81%;
+	    font-size: 12px;
+	}	
+	.logo img {
+	    height: 200px;
+	    position: absolute;
+	    top: 0;
+	    margin-top: -0.8%;
+	    width: 20%;
+	    margin-left: 45%;
+	}
+	h1{
+	    font-size: 50px;
+   		margin-top: 55px;
+	}
+	.site-body{
+		margin-top: 12%;
+	}
+}
+@media screen and (max-width: 1130px){
+
+	.welcome{
+		display: none;
+	}
+	h1{
+		margin-top: 225px;
+		font-size: 60px;
+	}
+	.nav-block a{
+		display: none;
+	}
+	#menu{
+	    display: block;
+	    margin-left: 80%;
+	    color: white;
+	}
+	.logo img{
+	    height: 30%;
+	    width: 35%;
+	    margin-left: 5%;
+	    margin-top: 0%;
+	}
+	.photo{
+		width: 30%;
+        margin-left: 10%;
+		padding-top: 5%;
+	}
+	.site-body{
+		margin-top: 12%;
+	}
+}
+
+@media screen and (max-width: 670px){
+
+	h1{
+		font-size: 40px;
+	}
+	.logo img{
+		height: 110px;
+		width: 200px;
+		margin-top: 4%;
+	}
+	.site-body{
+       margin-top: 25%;
+	}
+	.photo{
+		width: 30%;
+	    padding-left: 10%;
+		padding-top: 5%;
+	}
+}
+@media screen and (max-width: 450px){
+	.welcome-message{
+		position: absolute;
+	    margin-top: 38%;
+	    margin-left: 87%;
+	    font-size: 12px;
+	}	
+	.photo{
+	    width: 40%;
+	    margin-left: 30%;
+	    padding-top: 5%;
+	}
+
+	h1{
+		font-size: 30px;
+	    margin-top: 60px;
+	}
+	h2 {
+		text-align: center;
+	    font-weight: bolder;
+	}
+	h3 {
+		text-align: center;
+		font-weight: 100;
+	}
+	.site-body{
+	    margin-top: 30%;
+	}
+	#menu {
+	    display: block;
+	    margin-left: 80%;
+	    color: white;
+	    margin-top: -4%;
+	}
+}

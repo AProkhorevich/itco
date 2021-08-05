@@ -1,0 +1,29 @@
+h1{
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 30px;
+	margin-top: 1%;
+}
+body{
+	background: #456;
+}
+input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+form{
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 30px;
+	margin-top: 1%;
+	color: white;
+}
+
